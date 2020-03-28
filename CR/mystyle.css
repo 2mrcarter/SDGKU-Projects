@@ -1,0 +1,118 @@
+body{
+    font-family: baloo;
+}
+h1{
+    color: crimson;
+    text-align: center;
+    border:5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+    
+
+p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.left{
+    text-align: left;
+    margin-right: 70%;
+}   
+.subtitle{
+    border-bottom:1px solid green;
+    padding-bottom: 10px;
+    width: 600px;
+    display: block;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
+.other{
+    font-size: 12px;
+}
+
+.subtitle:hover{
+    background-color: rgb(181, 168, 168);
+    color: green;
+}
+
+
+#bio{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+#bio:hover{
+    transform: scale(1.1);
+}
+
+.information{
+    font-style: 18px;
+    list-style-type: square;
+    color: black;
+    margin-left: 50px;
+}
+.information-li{
+    padding-bottom: 20px;
+    width: 100px;
+}
+
+.papers{
+    font: size 20px;
+    list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsBZahbra9rk2MUZm7uCxkbAmsMAd01mV0yqgRmNAYtErii4HG);
+    margin: 10px;
+}
+
+ul{
+    padding: 0;
+    margin: 30px;
+    list-style-type: none;
+    background-color: purple;
+    display: block;
+
+}
+
+ul li{
+    float: left;
+    background-color: purple;
+}
+
+
+ul li a{
+    display: block;
+    background-color: purple;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+ul li a:hover{
+    border: 1px solid black;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border: 8px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+/* These address the hovering a coloring of link*/
+
+:link{
+    color: orange;
+}
+a:visited{
+    color: steelblue;
+}
+a:hover{
+    color: tomato;
+  }
